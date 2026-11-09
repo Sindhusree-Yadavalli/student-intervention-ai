@@ -47,7 +47,14 @@ cd backend
 .\venv\Scripts\Activate.ps1
 python -m uvicorn app.main:app --reload
 
+###Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+
 
 Author
 
-Sindhusree Yadavalli
+Sindhusree Yadavalli 
