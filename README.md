@@ -1,20 +1,53 @@
 
-Student Intervention AI
-An AI-powered system that identifies students at risk and recommends interventions based on attendance and assessment performance.
+# Student Intervention AI
 
-Features
-Student risk prediction
-Attendance analysis
-Assessment analysis
-Intervention recommendations
-Dashboard visualization
+An AI-powered system that identifies students at risk and recommends personalized interventions based on attendance and academic performance.
 
-Tech Stack
-FastAPI
-Python
-Scikit-Learn
-Next.js
-GitHub
+## Features
+
+- AI-based Risk Prediction
+- Student Performance Analysis
+- Attendance Analysis
+- Personalized Intervention Recommendations
+- FastAPI Backend
+- Next.js Frontend Dashboard
+- Machine Learning Model (Random Forest)
+- Dataset Generation
+
+## Tech Stack
+
+### Frontend
+- Next.js
+- React
+- Axios
+
+### Backend
+- FastAPI
+- Python
+
+### Machine Learning
+- Scikit-Learn
+- Pandas
+- Joblib
+
+## Project Structure
+
+student-intervention-ai
+├── backend
+├── frontend
+├── dataset
+└── README.md
+
+## How to Run
+
+### Backend
+
+```bash
+cd backend
+.\venv\Scripts\Activate.ps1
+python -m uvicorn app.main:app --reload
+
 
 Author
-Sindhusree
+
+Sindhusree Yadavalli
