@@ -14,7 +14,8 @@ export default function Home() {
   const predictRisk = async () => {
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        // "http://127.0.0.1:8000/predict",
+        "https://student-intervention-ai-1.onrender.com/predict",
         {
           attendance: Number(attendance),
           mathematics: Number(mathematics),
